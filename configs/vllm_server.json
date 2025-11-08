@@ -1,0 +1,27 @@
+{
+  "model": "google/gemma-3-27b-it",
+  "host": "0.0.0.0",
+  "port": 8000,
+  "tensor_parallel_size": 8,
+  "dtype": "bfloat16",
+  "gpu_memory_utilization": 0.9,
+  "max_model_len": null,
+  "text": {
+    "model": "google/gemma-3-27b-it",
+    "host": "0.0.0.0",
+    "port": 8000,
+    "tensor_parallel_size": 8,
+    "dtype": "bfloat16",
+    "gpu_memory_utilization": 0.9,
+    "max_model_len": null
+  },
+  "image": {
+    "model": "google/gemma-3-27b-it",
+    "host": "0.0.0.0",
+    "port": 8001,
+    "tensor_parallel_size": 8,
+    "dtype": "bfloat16",
+    "gpu_memory_utilization": 0.9,
+    "max_model_len": null
+  }
+}

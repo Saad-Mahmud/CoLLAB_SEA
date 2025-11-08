@@ -1,6 +1,6 @@
 # CoLLAB — Coordinating LLM Agents Benchmark
 
-![CoLLAB Teaser](page/paper/CoLLAB-F.png)
+![CoLLAB Teaser](paper/CoLLAB-F.png)
 
 CoLLAB is a small, practical framework for studying coordination among multiple LLM agents on cooperative tasks. It adapts the classic Distributed Constraint Optimization Problem (DCOP) paradigm to settings with natural‑language instructions and communication, and exposes a clean separation of concerns across three layers: problem (what to solve), communication/algorithm (how agents interact), and agent (how an LLM reasons and outputs a decision).
 
