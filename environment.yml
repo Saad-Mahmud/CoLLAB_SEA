@@ -1,0 +1,22 @@
+name: nlp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Use Python 3.12 as in your current env
+  - python=3.12
+  - pip
+  - pip:
+      # Core HTTP client
+      - requests==2.32.4
+
+      # Local vLLM servers (text + image)
+      - vllm==0.10.1
+      - fastapi==0.116.1
+      - uvicorn==0.35.0
+      - pydantic==2.11.7
+      - pillow==11.3.0
+
+      # OpenAI GPT client
+      - openai==1.102.0
+      - jsonschema==4.25.0  # optional but recommended for JSON validation
